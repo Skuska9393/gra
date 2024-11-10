@@ -5,7 +5,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("NazwaTwojejSceny"); // podaj nazwę sceny gry
+        SceneManager.LoadScene("wyboretapu"); // podaj nazwę sceny gry
     }
 
     public void ShowAbout()
@@ -17,4 +17,6 @@ public class MainMenuController : MonoBehaviour
     {
         Application.Quit(); // Tylko działa na urządzeniu
     }
+
+   
 }
