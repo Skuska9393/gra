@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 239fd63a8f83451409a50612a8b3df7b
+guid: c38375a2b11d05c41bd7e4a6f182cb9c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,85 +110,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drzewo_0
+      name: 1_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 240
-        width: 400
-        height: 230
+        x: 80
+        y: 1167
+        width: 550
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcba30bc1a88fb47953ae04e6eef2d1
-      internalID: -1231500386
+      spriteID: 9a3c256baef503b438add4967450e071
+      internalID: -367431049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drzewo_1
+      name: 1_1
       rect:
         serializedVersion: 2
-        x: 575
-        y: 240
-        width: 400
-        height: 230
+        x: 630
+        y: 1167
+        width: 550
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20020bc6c392fa04ab63ea8606b5c6fe
-      internalID: 1042702116
+      spriteID: 9fef7526e7e6bdd4c8ffe5b5ef1d8dc5
+      internalID: 168584713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drzewo_2
+      name: 1_2
       rect:
         serializedVersion: 2
-        x: 175
-        y: 10
-        width: 400
-        height: 230
+        x: 80
+        y: 617
+        width: 550
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb2d9a558f6870147bca8dbe01fac353
-      internalID: 696334637
+      spriteID: f8cda8ad870991843b3beda1f959bd4e
+      internalID: -516926653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drzewo_3
+      name: 1_3
       rect:
         serializedVersion: 2
-        x: 575
-        y: 10
-        width: 400
-        height: 230
+        x: 630
+        y: 617
+        width: 550
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba5b4a839e28524b82f3cc9454a3b1e
-      internalID: -837738974
+      spriteID: 8faa4bb554634b14c9e5d449414942d5
+      internalID: 1814755701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 67
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b08a74c9552b7e4e964f5962aa441cd
+      internalID: 1642951735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 67
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e349d674414149408abd6554d1097df
+      internalID: -1334428051
       vertices: []
       indices: 
       edges: []
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      drzewo_0: -1231500386
-      drzewo_1: 1042702116
-      drzewo_2: 696334637
-      drzewo_3: -837738974
+      1_0: -367431049
+      1_1: 168584713
+      1_2: -516926653
+      1_3: 1814755701
+      1_4: 1642951735
+      1_5: -1334428051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
