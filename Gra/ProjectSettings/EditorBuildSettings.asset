@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/wyboretapu.unity
     guid: 52d847b700354d3498540116587aaf07
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Obracanepuzzle.unity
     guid: 507c25da65765e24c83d92867bd87bd1
+  - enabled: 1
+    path: Assets/Scenes/Obracanepuzzle 2.unity
+    guid: 5579e5b4c1841004ca7d8ace8cbba2d2
   m_configObjects: {}
