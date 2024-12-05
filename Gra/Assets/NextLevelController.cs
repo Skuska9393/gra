@@ -6,9 +6,16 @@ using UnityEngine.SceneManagement;
 public class NextLevelController : MonoBehaviour
 {
     // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
+    void OnMouseDown()
     {
-        Debug.Log("abcd");
-        SceneManager.LoadScene("Obracanepuzzle 2"); // Wczytaj scenê Poziom2
+        LoadNextLevel();
+    }
+
+    // Funkcja ³adowania kolejnego poziomu
+    void LoadNextLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene("Obracanepuzzle 2");
+        // SceneManager.LoadScene(currentSceneIndex + 1); 
     }
 }
