@@ -204,7 +204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162656026}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 102900000, guid: cd26722dddd8412428d2d3ab1d03fdb7, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &162656026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,7 +827,7 @@ GameObject:
   - component: {fileID: 1060347952}
   - component: {fileID: 1060347951}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Gra2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1085,7 +1097,7 @@ GameObject:
   - component: {fileID: 1249506387}
   - component: {fileID: 1249506386}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Gra1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
