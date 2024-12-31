@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/segregowaniesmieci.unity
     guid: cd26722dddd8412428d2d3ab1d03fdb7
+  - enabled: 1
+    path: Assets/Scenes/Tworcy.unity
+    guid: 1b607a8c7fcc22b4c9626647b559c1a1
   m_configObjects: {}

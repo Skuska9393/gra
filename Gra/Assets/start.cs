@@ -10,13 +10,24 @@ public class MainMenuController : MonoBehaviour
 
     public void ShowAbout()
     {
-        // Możesz wyświetlić okno "O nas" lub załadować scenę z informacjami
+        SceneManager.LoadScene("Tworcy"); // podaj nazwę sceny gry
     }
 
     public void ExitGame()
     {
-        Application.Quit(); // Tylko działa na urządzeniu
+        Application.Quit(); // Wyłącza aplikację
+        Debug.Log("Gra została zamknięta!"); // Wyświetli komunikat w edytorze Unity (działa tylko w edytorze).
     }
-
-   
+     public void Gra2()
+    {
+        SceneManager.LoadScene("segregowaniesmieci"); // podaj nazwę sceny gry
+    }
+      public void Gra1()
+    {
+        SceneManager.LoadScene("Obracanepuzzle"); // podaj nazwę sceny gry
+    }
+    public void Gra3()
+    {
+        SceneManager.LoadScene("Obracanepuzzle 2"); // podaj nazwę sceny gry
+    }
 }

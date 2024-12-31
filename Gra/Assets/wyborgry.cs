@@ -1,18 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuController1 : MonoBehaviour
+public class wyborgry : MonoBehaviour
 {
-    public void Gra1()
-    {
-        SceneManager.LoadScene("segregowaniesmieci"); // podaj nazwę sceny gry
-    }
-
+    // Funkcja ładowania sceny
     public void Gra2()
     {
-         SceneManager.LoadScene("segregowaniesmieci"); // podaj nazwę sceny gry
+        SceneManager.LoadScene("segregowaniesmieci");
     }
-
-   
-   
+    public void Gra1()
+    {
+        SceneManager.LoadScene("Obracanepuzzle");
+    }
 }
